@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tickets | SBT Festival</title>
+  <link rel="stylesheet" href="des3.css">
+</head>
+<body>
+  <header>
+    <h1>Buy Tickets</h1>
+    <nav>
+      <a href="page1.html">Home</a>
+      <a href="page2.html">Lineup</a>
+      <a href="page3.html">Tickets</a>
+      <a href="page4.html">About Us</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Reserve Your Spot</h2>
+
+    <div class="ticket-prices">
+      <h3>🎟️ Ticket Prices</h3>
+      <p>General Admission – ₱1,500</p>
+      <p>VIP Access – ₱3,500</p>
+      <p>Backstage Pass – ₱5,000</p>
+    </div>
+
+    <form>
+      <label>Full Name:</label>
+      <input type="text" required>
+
+      <label>Email:</label>
+      <input type="email" required>
+
+      <label>Ticket Type:</label>
+      <select>
+        <option>General Admission</option>
+        <option>VIP Access</option>
+        <option>Backstage Pass</option>
+      </select>
+
+      <label>Mode of Payment:</label>
+      <select id="payment">
+        <option>GCash</option>
+        <option>PayMaya</option>
+      </select>
+
+      <div class="qr-section">
+        <p>Scan the QR code below if paying via GCash or PayMaya:</p>
+        <div class="qr-codes">
+          <div>
+            <p>GCash:</p>
+            <!-- Replace this with the actual GCash QR code image link -->
+            <img src="https://play-lh.googleusercontent.com/3qik6-MrLU_WtU9BS_X8p570OmUlEKMW2KaoRvR6iv0BIlAsYkxlaNzlvp7xszzEIQ" alt="GCash QR Code">
+          </div>
+          <div>
+            <p>PayMaya:</p>
+            <!-- Replace this with the actual PayMaya QR code image link -->
+            <img src="https://play-lh.googleusercontent.com/3qik6-MrLU_WtU9BS_X8p570OmUlEKMW2KaoRvR6iv0BIlAsYkxlaNzlvp7xszzEIQ" alt="PayMaya QR Code">
+          </div>
+        </div>
+      </div>
+
+      <button type="submit">Buy Now</button>
+    </form>
+
+    <div class="transaction-history">
+      <h3>🧾 Transaction History</h3>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Name</th>
+          <th>Ticket Type</th>
+          <th>Amount</th>
+          <th>Payment Method</th>
+        </tr>
+        <tr>
+          <td>Oct 10, 2025</td>
+          <td>Juan Dela Cruz</td>
+          <td>VIP Access</td>
+          <td>₱3,500</td>
+          <td>GCash</td>
+        </tr>
+        <tr>
+          <td>Oct 12, 2025</td>
+          <td>Maria Santos</td>
+          <td>General Admission</td>
+          <td>₱1,500</td>
+          <td>GCash</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SBT Music Festival</p>
+  </footer>
+
+  <script src="page0.js"></script>
+</body>
+</html>

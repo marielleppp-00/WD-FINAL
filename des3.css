@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background: #ff3366;
+  padding: 20px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logout-btn {
+  background: #d9d9d9;
+  color: #000;
+  border: 1px solid #888;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ticket-prices {
+  background: #222;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+form {
+  background: #222;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #888;
+  box-sizing: border-box;
+}
+
+button {
+  background: #ff3366;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.qr-section {
+  margin-top: 20px;
+}
+
+.qr-codes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 15px;
+}
+
+.qr-codes img {
+  width: 120px;
+  height: 120px;
+  background: #333;
+  border-radius: 10px;
+}
+
+.transaction-history {
+  margin-top: 40px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+}
+
+th {
+  background: #ff3366;
+  color: #000;
+}
+
+td {
+  background: #222;
+}
+
+hr {
+  width: 70%;
+  margin: 40px auto;
+  border: 1px solid #333;
+}
+
+footer {
+  background: #000;
+  padding: 15px;
+  color: #bbb;
+  margin-top: 40px;
+}

@@ -1,0 +1,73 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background: #ff3366;
+  padding: 20px;
+  text-align: center; 
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px; 
+}
+
+
+.logout-btn {
+  background: #d9d9d9;
+  color: #000;
+  border: 1px solid #888;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background: #bbb; 
+}
+
+h2 {
+  color: #ffcc00;
+  margin-top: 20px;
+}
+
+
+.artists {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 25px;
+  margin: 30px;
+  justify-items: center;
+}
+
+
+.artist img {
+  width: 100%;
+  max-width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.artist p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+
+footer {
+  background: #000;
+  padding: 15px;
+  color: #aaa; 
+}
